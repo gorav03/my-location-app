@@ -1,0 +1,36 @@
+.hero-section {
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    color: white;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  .highlight {
+    color: #bf40bf;
+  }
+  
+  .cta-button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: #bf40bf;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
